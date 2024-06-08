@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+}
+
+.text-section {
+    color: white;
+    max-width: 60%;
+    margin-bottom: 100px;
+}
+
+.text-section h1 {
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    margin-bottom: 10px;
+}
+
+.image-section img {
+    width: 350px;
+    transform: rotate(13deg);
+    transition: transform 0.3s ease;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+.image-section img:hover {
+    transform: rotate(0deg) scale(2.1);
+}
